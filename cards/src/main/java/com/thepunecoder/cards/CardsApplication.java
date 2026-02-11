@@ -20,18 +20,18 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				description = "Cards microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
-						name = "Devarsh W",
-						email = "devarsh@gamil.com",
-						url = "https://www.devarsh.com"
+						name = "Thepunecoder",
+						email = "thepunecoder@gamil.com",
+						url = "https://www.thepunecoder.com"
 				),
 				license = @License(
 						name = "Apache 2.0",
-						url = "https://www.devarsh.com"
+						url = "https://www.thepunecoder.com"
 				)
 		),
 		externalDocs = @ExternalDocumentation(
 				description = "Cards microservice REST API Documentation",
-				url = "https://www.devarsh.com/swagger-ui.html"
+				url = "https://www.thepunecoder.com/swagger-ui.html"
 		)
 )
 public class CardsApplication {

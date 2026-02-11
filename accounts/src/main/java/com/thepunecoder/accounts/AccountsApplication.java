@@ -17,6 +17,6 @@ public class AccountsApplication {
 /*
 What is @SpringBootApplication annotation in a Spring Boot application?
 The @SpringBootApplication annotation is a convenience annotation that combines three commonly used annotations in Spring Boot applications: @Configuration, @EnableAutoConfiguration, and @ComponentScan.
-It indicates that the class is the main entry point for the Spring Boot application and triggers auto-configuration, component scanning, and allows defining extra configuration on the application class.
+It indicates that the class is the main entry point for the Spring Boot application and triggers autoconfiguration, component scanning, and allows defining extra configuration on the application class.
 
  */

@@ -20,7 +20,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				description = "Loans microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
-						name = "Devarsh W",
+						name = "Thepunecoder",
 						email = "thepunecoder@gmail.com",
 						url = "https://www.thepunecoder.com"
 				),
