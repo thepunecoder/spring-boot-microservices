@@ -215,4 +215,9 @@ The main difference between PUT and POST methods in REST API lies in their purpo
 POST is used to create a new resource on the server and is not idempotent, meaning that multiple identical POST requests can result in multiple resources being created.
 PUT, on the other hand, is used to update an existing resource or create a resource if it does not exist, and it is idempotent, meaning that multiple identical PUT requests will have the same effect as a single request.
 
+Difference between put and patch method in REST API?
+The main difference between PUT and PATCH methods in REST API is in how they update resources.
+PUT is used to update an entire resource, meaning that the client must send a complete representation of the resource, and any missing fields will be set to null or default values.
+PATCH, on the other hand, is used to partially update a resource, allowing the client to send only the fields that need to be updated, without affecting the other fields of the resource. PATCH is more efficient for updates that only require changes to a subset of the resource's properties, while PUT is more suitable for replacing an entire resource.
+
  */
