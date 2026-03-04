@@ -17,3 +17,8 @@ PS C:\Workspace\SpringBootMicroservices> git remote add origin https://github.co
 PS C:\Workspace\SpringBootMicroservices> git branch -M main 
 PS C:\Workspace\SpringBootMicroservices> git push -u origin main 
 Enumerating objects: 195, done.
+
+
+Print Env Variable in Intellij Terminal 
+
+PS C:\Workspace\SpringBootMicroservices> Get-ChildItem Env:
